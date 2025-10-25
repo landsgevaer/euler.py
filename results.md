@@ -9,3 +9,4 @@
 |  6 |  5  | Sum Square Difference       |        25164150 |  ✔  |       0.0 |
 |  7 |  5  | 10 001st Prime              |          104743 |  ✔  |      77.1 |
 |  8 |  5  | Largest Product in a Series |     23514624000 |  ✔  |       2.1 |
+|  9 |  5  | Special Pythagorean Triplet |        31875000 |  ✔  |       0.0 |
