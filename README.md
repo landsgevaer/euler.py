@@ -67,12 +67,9 @@ The following helper functions are provided in the various solutions:
 
 [](#start-helper-table)
 
-| Module      | Function             | Description                                                 |
-| :---------- | :------------------- | :---------------------------------------------------------- |
-| problem0002 | generate_fibonacci() | Generator of Fibonacci numbers.                             |
-| problem0003 | factorize_primes(n)  | Decompose a number into prime factors with their exponents. |
-| problem0003 | generate_primes()    | Generator of prime numbers.                                 |
-| problem0003 | is_prime(number)     | Determine whether a number is prime.                        |
+| Module      | Function             | Description                     |
+| :---------- | :------------------- | :------------------------------ |
+| problem0002 | generate_fibonacci() | Generator of Fibonacci numbers. |
 
 [](#end-helper-table)
 
