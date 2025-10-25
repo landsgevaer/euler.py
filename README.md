@@ -74,6 +74,7 @@ The following helper functions are provided in the various solutions:
 | problem0003 | generate_primes()    | Generator of prime numbers.                                 |
 | problem0003 | is_prime(number)     | Determine whether a number is prime.                        |
 | problem0009 | list_divisors(n)     | List all divisors of n.                                     |
+| problem0014 | generate_collatz(n)  | Generator of Collatz sequence.                              |
 
 [](#end-helper-table)
 

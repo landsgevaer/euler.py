@@ -7,10 +7,11 @@
 |  4 |  5  | Largest Palindrome Product         |          906609 |  ✔  |      20.5 |
 |  5 |  5  | Smallest Multiple                  |       232792560 |  ✔  |       0.0 |
 |  6 |  5  | Sum Square Difference              |        25164150 |  ✔  |       0.0 |
-|  7 |  5  | 10 001st Prime                     |          104743 |  ✔  |      76.8 |
+|  7 |  5  | 10 001st Prime                     |          104743 |  ✔  |      76.6 |
 |  8 |  5  | Largest Product in a Series        |     23514624000 |  ✔  |       2.1 |
 |  9 |  5  | Special Pythagorean Triplet        |        31875000 |  ✔  |       0.0 |
-| 10 |  5  | Summation of Primes                |    142913828922 |  ✔  |    3182.0 |
+| 10 |  5  | Summation of Primes                |    142913828922 |  ✔  |    3219.2 |
 | 11 |  5  | Largest Product in a Grid          |        70600674 |  ✔  |       0.9 |
 | 12 |  5  | Highly Divisible Triangular Number |        76576500 |  ✔  |      73.6 |
 | 13 |  5  | Large Sum                          |      5537376230 |  ✔  |       0.1 |
+| 14 |  5  | Longest Collatz Sequence           |          837799 |  ✔  |   10012.9 |
