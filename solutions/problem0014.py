@@ -31,12 +31,19 @@ def generate_collatz(n):
 
 def main():
     """Main function."""
-    answer = maxlength = 0
-    for number in range(1, 1000000):
-        length = sum(1 for _ in generate_collatz(number))
-        if length > maxlength:
-            maxlength = length
-            answer = number
+    lengths = [0] * 1000000
+    lengths[1] = 1
+    for number in range(2, 1000000):
+        if not lengths[number]:
+            collatz = []
+            for n in generate_collatz(number):
+                collatz.append(n)
+                if n < 1000000 and lengths[n]:
+                    break
+            for i, n in enumerate(collatz, start=1):
+                if n < 1000000:
+                    lengths[n] = lengths[collatz[-1]] + len(collatz) - i
+    answer = max(enumerate(lengths), key=lambda x: x[1])[0]
     return answer
 
 
