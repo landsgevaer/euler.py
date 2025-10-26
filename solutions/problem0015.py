@@ -25,6 +25,7 @@ def main():
     answer = comb(40, 20)
     return answer
 
+
 if __name__ == "__main__":
     print(__doc__)
     print('"' + problem["title"] + '"')

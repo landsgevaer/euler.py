@@ -29,6 +29,7 @@ def main():
             answer += a
     return answer
 
+
 if __name__ == "__main__":
     print(__doc__)
     print('"' + problem["title"] + '"')
