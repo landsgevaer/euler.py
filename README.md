@@ -67,15 +67,16 @@ The following helper functions are provided in the various solutions:
 
 [](#start-helper-table)
 
-| Module      | Function                    | Description                                                            |
-| :---------- | :-------------------------- | :--------------------------------------------------------------------- |
-| problem0002 | generate_fibonacci()        | Generator of Fibonacci numbers.                                        |
-| problem0003 | factorize_primes(n)         | Decompose a number into prime factors with their exponents.            |
-| problem0003 | generate_primes()           | Generator of prime numbers.                                            |
-| problem0003 | is_prime(number)            | Determine whether a number is prime.                                   |
-| problem0009 | list_divisors(n)            | List all divisors of n.                                                |
-| problem0014 | generate_collatz(n)         | Generator of Collatz sequence.                                         |
-| problem0017 | speak_number(n, *, scale=0) | Returns the English spoken form of a number (up to 10^21) as a string. |
+| Module      | Function                             | Description                                                               |
+| :---------- | :----------------------------------- | :------------------------------------------------------------------------ |
+| problem0002 | generate_fibonacci()                 | Generator of Fibonacci numbers.                                           |
+| problem0003 | factorize_primes(n)                  | Decompose a number into prime factors with their exponents.               |
+| problem0003 | generate_primes()                    | Generator of prime numbers.                                               |
+| problem0003 | is_prime(number)                     | Determine whether a number is prime.                                      |
+| problem0009 | list_divisors(n)                     | List all divisors of n.                                                   |
+| problem0014 | generate_collatz(n)                  | Generator of Collatz sequence.                                            |
+| problem0017 | speak_number(n, *, scale=0)          | Returns the English spoken form of a number (up to 10^21) as a string.    |
+| problem0031 | count_partitions(n, *, allowed=None) | Count how many ways an integer n can partitioned into numbers from a set. |
 
 [](#end-helper-table)
 
