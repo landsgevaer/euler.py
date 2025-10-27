@@ -1,41 +1,42 @@
 | ID | Lvl | Title                              |          Answer | ✔/✘ | Time [ms] |
 | -: | :-: | :--------------------------------- | --------------: | :-: | --------: |
-|  0 |  5  | Problem Zero                       | 166666666650000 |  ✔  |       2.9 |
+|  0 |  5  | Problem Zero                       | 166666666650000 |  ✔  |       3.0 |
 |  1 |  5  | Multiples of 3 or 5                |          233168 |  ✔  |       0.1 |
 |  2 |  5  | Even Fibonacci Numbers             |         4613732 |  ✔  |       0.0 |
 |  3 |  5  | Largest Prime Factor               |            6857 |  ✔  |       0.6 |
-|  4 |  5  | Largest Palindrome Product         |          906609 |  ✔  |      21.9 |
+|  4 |  5  | Largest Palindrome Product         |          906609 |  ✔  |      20.9 |
 |  5 |  5  | Smallest Multiple                  |       232792560 |  ✔  |       0.0 |
 |  6 |  5  | Sum Square Difference              |        25164150 |  ✔  |       0.0 |
-|  7 |  5  | 10 001st Prime                     |          104743 |  ✔  |      83.9 |
+|  7 |  5  | 10 001st Prime                     |          104743 |  ✔  |      84.0 |
 |  8 |  5  | Largest Product in a Series        |     23514624000 |  ✔  |       2.1 |
 |  9 |  5  | Special Pythagorean Triplet        |        31875000 |  ✔  |       0.0 |
-| 10 |  5  | Summation of Primes                |    142913828922 |  ✔  |    3352.7 |
+| 10 |  5  | Summation of Primes                |    142913828922 |  ✔  |    3379.3 |
 | 11 |  5  | Largest Product in a Grid          |        70600674 |  ✔  |       0.9 |
-| 12 |  5  | Highly Divisible Triangular Number |        76576500 |  ✔  |      73.6 |
+| 12 |  5  | Highly Divisible Triangular Number |        76576500 |  ✔  |      73.9 |
 | 13 |  5  | Large Sum                          |      5537376230 |  ✔  |       0.1 |
-| 14 |  5  | Longest Collatz Sequence           |          837799 |  ✔  |     587.4 |
+| 14 |  5  | Longest Collatz Sequence           |          837799 |  ✔  |     592.3 |
 | 15 |  5  | Lattice Paths                      |    137846528820 |  ✔  |       0.0 |
 | 16 |  5  | Power Digit Sum                    |            1366 |  ✔  |       0.0 |
-| 17 |  5  | Number Letter Counts               |           21124 |  ✔  |       1.1 |
+| 17 |  5  | Number Letter Counts               |           21124 |  ✔  |       1.2 |
 | 18 |  5  | Maximum Path Sum I                 |            1074 |  ✔  |       0.1 |
 | 19 |  5  | Counting Sundays                   |             171 |  ✔  |       0.2 |
 | 20 |  5  | Factorial Digit Sum                |             648 |  ✔  |       0.0 |
 | 21 |  5  | Amicable Numbers                   |           31626 |  ✔  |      44.6 |
 | 22 |  5  | Names Scores                       |       871198282 |  ✔  |       3.5 |
-| 23 |  5  | Non-Abundant Sums                  |         4179871 |  ✔  |     438.8 |
-| 24 |  5  | Lexicographic Permutations         |      2783915460 |  ✔  |      63.3 |
-| 25 |  5  | 1000-digit Fibonacci Number        |            4782 |  ✔  |      18.2 |
+| 23 |  5  | Non-Abundant Sums                  |         4179871 |  ✔  |     441.4 |
+| 24 |  5  | Lexicographic Permutations         |      2783915460 |  ✔  |      63.4 |
+| 25 |  5  | 1000-digit Fibonacci Number        |            4782 |  ✔  |      18.3 |
 | 26 |  5  | Reciprocal Cycles                  |             983 |  ✔  |       7.8 |
-| 27 |  5  | Quadratic Primes                   |          -59231 |  ✔  |     217.4 |
+| 27 |  5  | Quadratic Primes                   |          -59231 |  ✔  |     218.1 |
 | 28 |  5  | Number Spiral Diagonals            |       669171001 |  ✔  |       0.2 |
 | 29 |  5  | Distinct Powers                    |            9183 |  ✔  |       2.9 |
-| 30 |  5  | Digit Fifth Powers                 |          443839 |  ✔  |     380.7 |
-| 31 |  5  | Coin Sums                          |           73682 |  ✔  |     847.7 |
-| 32 |  5  | Pandigital Products                |           45228 |  ✔  |     280.0 |
-| 33 |  5  | Digit Cancelling Fractions         |             100 |  ✔  |       4.1 |
-| 34 |  5  | Digit Factorials                   |           40730 |  ✔  |      23.5 |
-| 35 |  5  | Circular Primes                    |              55 |  ✔  |     220.1 |
-| 36 |  5  | Double-base Palindromes            |          872187 |  ✔  |     255.6 |
-| 37 |  5  | Truncatable Primes                 |          748317 |  ✔  |     140.8 |
-| 38 |  5  | Pandigital Multiples               |       932718654 |  ✔  |       4.9 |
+| 30 |  5  | Digit Fifth Powers                 |          443839 |  ✔  |     372.3 |
+| 31 |  5  | Coin Sums                          |           73682 |  ✔  |     848.1 |
+| 32 |  5  | Pandigital Products                |           45228 |  ✔  |     276.2 |
+| 33 |  5  | Digit Cancelling Fractions         |             100 |  ✔  |       4.0 |
+| 34 |  5  | Digit Factorials                   |           40730 |  ✔  |      23.4 |
+| 35 |  5  | Circular Primes                    |              55 |  ✔  |     218.3 |
+| 36 |  5  | Double-base Palindromes            |          872187 |  ✔  |     246.0 |
+| 37 |  5  | Truncatable Primes                 |          748317 |  ✔  |     142.0 |
+| 38 |  5  | Pandigital Multiples               |       932718654 |  ✔  |       4.8 |
+| 39 |  5  | Integer Right Triangles            |             840 |  ✔  |       3.3 |
