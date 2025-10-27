@@ -18,7 +18,7 @@ problem = {
     "answer": 6857,
 }
 
-prime_cache = [2, 3, 5]
+prime_cache = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59]
 
 def generate_primes():
     """Generator of prime numbers."""
@@ -32,10 +32,9 @@ def generate_primes():
 
 def is_prime(number):
     """Determine whether a number is prime."""
-    lgN = len(prime_cache).bit_length()
-    if prime_cache[lgN] ** 2 - 2 < number < prime_cache[-1] + 2:
+    lo, hi = (len(prime_cache).bit_length() - 1) ** 2, len(prime_cache) - 1
+    if prime_cache[lo] - 2 < number < prime_cache[hi] + 2:
         # Bisection; takes O(lg(N)) steps.
-        lo, hi = lgN, len(prime_cache) - 1
         while lo < hi:
             md = (lo + hi) // 2
             if number < prime_cache[md]:
@@ -48,9 +47,9 @@ def is_prime(number):
     for prime in generate_primes():
         # Sieve; takes O(sqrt(n)) steps.
         if number % prime == 0:
-            return False
+            return number == prime
         if prime * prime > number:
-            return True
+            return number > 1
 
 def factorize_primes(n):
     """Decompose a number into prime factors with their exponents."""
