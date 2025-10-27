@@ -19,7 +19,7 @@ problem = {
 def main():
     """Main function."""
     filename = __file__.replace("problem0022.py", "../files/0022_names.txt")
-    with open(filename, "r") as filehandle:
+    with open(filename, "r", encoding="utf-8") as filehandle:
         names = filehandle.read().upper().split(",")
     names.sort()
     answer = 0
